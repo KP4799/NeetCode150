@@ -13,14 +13,6 @@ The space complexity is O(1) because the hash map will have at most 26 entries (
 
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        # set_s = (i for i in s)
-        # set_t = (i for i in t)
-
-        # if sorted(set_s) == sorted(set_t):
-        #     return True
-        # else:
-        #     return False
-
         if len(s) != len(t):
             return False
 
