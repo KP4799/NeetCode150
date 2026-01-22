@@ -25,3 +25,7 @@ class Solution:
             decoded.append(s[start_pos:end_pos])
             i = end_pos
         return decoded
+
+x = Solution()
+y = x.encode(["Hello","World"])
+z = x.decode(y)
