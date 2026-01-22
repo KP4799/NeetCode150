@@ -26,6 +26,7 @@ class Solution:
             i = end_pos
         return decoded
 
-x = Solution()
-y = x.encode(["Hello","World"])
-z = x.decode(y)
+# x = Solution()
+# y = x.encode(["Hello","World"])
+# z = x.decode(y)
+# print(z)
