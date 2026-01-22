@@ -21,3 +21,7 @@ class Solution:
                 return False
 
         return True
+
+# x = Solution()
+# y = x.isAnagram("racecar","carrace")
+# print(y)
