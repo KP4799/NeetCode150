@@ -25,3 +25,7 @@ class Solution:
                 anagrams_map[sorted_word] = [word]
 
         return list(anagrams_map.values())
+
+# x = Solution()
+# y = x.groupAnagrams(["act","pots","tops","cat","stop","hat"])
+# print(y)
