@@ -4,7 +4,6 @@ Problem: LeetCode 271 - Encode and Decode Strings
 Key Idea:
 We will create a string such that the individual words will follow their length and between them would be a delimiter ('#'). 
 The delimiter would be used to find the length of the individual words in the list using which the strings would be separated from the encoded string.
-
 """
 
 class Solution:
