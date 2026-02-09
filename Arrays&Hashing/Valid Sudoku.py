@@ -35,6 +35,7 @@ class Solution:
                     seen.add((i // 3, j // 3, num))
 
         return True
+        
 # x = Solution()
 # y = isValidSudoku(board=[["1","2",".",".","3",".",".",".","."],
 #         ["4",".",".","5",".",".",".",".","."],
