@@ -31,3 +31,7 @@ class Solution:
             return 0
         z = max(lengths.values())
         return z
+
+# x = Solution([0,3,2,5,4,6,1,1])
+# y = x.longestConsecutive()
+# print(y)
