@@ -58,7 +58,7 @@ neetcode-150/
 
 | Pattern             | Status         |
 | ------------------- | ---------------|
-| Arrays & Hashing    | ⏳ In Progress |
+| Arrays & Hashing    | ✅ Completed   |
 | Two Pointers        | ⏳ In Progress |
 | Sliding Window      | ⏳ In Progress |
 | Stack               | ⏳ In Progress |
