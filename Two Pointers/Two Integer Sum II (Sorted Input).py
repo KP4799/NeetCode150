@@ -30,7 +30,8 @@ class Solution:
                 right -= 1
                 
         return False
-        
+
+
 # Without two pointers
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
@@ -44,7 +45,6 @@ class Solution:
                     return list((x+1,y+1))
 
         return False
-
 
 # x = Solution()
 # y = x.twoSum([1,2,3,4],3)
