@@ -13,7 +13,6 @@ Space Complexity:
 The space complexity is O(n) because we need to store the frequency map of all elements in the input list. Additionally, the min-heap will also have a space complexity of O(n) in the worst case if all elements are unique.
 """
 
-
 class Solution:
     def topKFrequent(self, nums: list[int], k: int) -> list[int]:
         hashmap = {}
@@ -26,7 +25,6 @@ class Solution:
     
         return result[:k]
 
-        
 # x = Solution()
 # y = x.topKFrequent([1,2,2,3,3,3],2)
 # print(y)
