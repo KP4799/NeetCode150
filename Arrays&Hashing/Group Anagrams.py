@@ -11,7 +11,6 @@ Space Complexity:
 The space complexity is O(n * m), where n is the number of words, and m is the maximum length of a word. In the worst case, all words are unique, and the hash map will contain n entries, each with a list of words of length m.
 """
 
-
 class Solution:
     def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
         anagrams_map = {}
