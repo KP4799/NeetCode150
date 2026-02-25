@@ -18,7 +18,6 @@ The space complexity is O(1) since we are not using any additional data structur
 
 
 class Solution:
-    
     def trap(self, height: List[int]) -> int:
         left = 0
         right = len(height) - 1
