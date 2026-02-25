@@ -15,6 +15,7 @@ Space Complexity:
 The space complexity is O(1) since we are not using any additional data structures that depend on the input size. We only use a constant amount of extra space for the two pointers and other variables.
 """
 
+
 class Solution:
     def trap(self, height: List[int]) -> int:
         left = 0
