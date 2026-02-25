@@ -21,7 +21,7 @@ class Solution:
             product = 1
 
         return result
-    
+
 # x = Solution()
 # y = x.productExceptSelf([1,2,3,4])
 # print(y)
