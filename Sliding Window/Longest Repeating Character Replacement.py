@@ -15,7 +15,6 @@ The space complexity is O(k), where k is the maximum number of distinct characte
 the character frequencies in the window would have k elements.
 """
 
-
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         char_freq = {}
