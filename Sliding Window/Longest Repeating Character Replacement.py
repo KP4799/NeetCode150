@@ -11,7 +11,8 @@ The time complexity of this solution is O(n), where n is the length of the input
 to update the window and the maximum length.
 
 Space Complexity:
-The space complexity is O(k), where k is the maximum number of distinct characters allowed in the input string 's'. In the worst case, the entire string can have k distinct characters, so the dictionary storing the character frequencies in the window would have k elements.
+The space complexity is O(k), where k is the maximum number of distinct characters allowed in the input string 's'. In the worst case, the entire string can have k distinct characters, so the dictionary storing
+the character frequencies in the window would have k elements.
 """
 
 class Solution:
