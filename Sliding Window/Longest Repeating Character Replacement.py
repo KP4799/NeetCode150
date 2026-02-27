@@ -2,7 +2,9 @@
 Problem: LeetCode 424 - Longest Repeating Character Replacement
 
 Key Idea:
-To find the maximum length of a substring with at most k distinct characters in the input string 's', we can use the sliding window approach. We use two pointers, 'left' and 'right', to represent the current window. As we move the 'right' pointer to the right, we expand the window and add characters to a dictionary to keep track of their frequencies. If the number of distinct characters in the window exceeds k, we move the 'left' pointer to the right to shrink the window until the number of distinct characters is k again. At each step, we update the maximum length of the window.
+To find the maximum length of a substring with at most k distinct characters in the input string 's', we can use the sliding window approach. We use two pointers, 'left' and 'right', to represent the current window. 
+As we move the 'right' pointer to the right, we expand the window and add characters to a dictionary to keep track of their frequencies. If the number of distinct characters in the window exceeds k, 
+we move the 'left' pointer to the right to shrink the window until the number of distinct characters is k again. At each step, we update the maximum length of the window.
 
 Time Complexity:
 The time complexity of this solution is O(n), where n is the length of the input string 's'. The sliding window approach iterates through the string once, and at each step, we perform constant-time operations to update the window and the maximum length.
