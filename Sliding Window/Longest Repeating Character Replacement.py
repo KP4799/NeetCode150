@@ -34,7 +34,6 @@ class Solution:
 
         return max_length
 
-
 # x = Solution()
 # y = x.characterReplacement("XYYX", 2)
 # print(y)
