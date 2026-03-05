@@ -14,7 +14,6 @@ Space Complexity:
 The space complexity is O(1) since we are not using any additional data structures that depend on the input size. We only use a constant amount of extra space for the two pointers and other variables.
 """
 
-
 # Two pointer
 class Solution:
     def maxArea(self, heights: List[int]) -> int:
