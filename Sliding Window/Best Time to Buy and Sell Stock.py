@@ -23,7 +23,6 @@ class Solution:
 
         return max_profit
 
-
 # x = Solution()
 # y = x.maxProfit([10,1,5,6,7,1])
 # print(y)
