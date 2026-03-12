@@ -20,7 +20,7 @@ class Solution:
                 return True
             visited.add(n)
         return False
-    
+
 # x = Solution()
 # y = x.containsDuplicate([3,5,4,6,3])
 # print(y)
