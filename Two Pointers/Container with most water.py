@@ -31,7 +31,6 @@ class Solution:
 
         return max_area
 
-
 # Brute Force
 class Solution:
     def maxArea(self, heights: List[int]) -> int:
