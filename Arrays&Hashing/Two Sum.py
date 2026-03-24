@@ -20,7 +20,7 @@ class Solution:
             prevMap[item] = id
 
         return []
-    
+
 # x = Solution()
 # y = x.twoSum([3,5,4,6],9)
 # print(y)
